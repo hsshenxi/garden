@@ -1,0 +1,21 @@
+site_name: Tpig's Garden
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    # - navigation.sections 
+
+# Page tree
+nav:
+  - Home: index.md
+  - Learn Python:
+    - 基础知识:
+      - 01 概述: Python/01_概述.md
+      - 02 环境搭建: Python/02_环境搭建.md
+  - CG: CG/index.md
+  - Algorithm: Algorithm/index.md
+  - Tools: 
+    - 文档工具:
+      - mkdocs material: tools/mkdocs/mkdocs_material.md
+
+
